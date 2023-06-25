@@ -2,7 +2,7 @@
 import { SearchMovies } from "components/SearchMovies/SearchMovies";
 import { useSearchParams, useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
-import { getMoviesByQuery } from "components/helpers/api";
+import { getMoviesByQuery } from "helpers/api";
 import { MoviesList} from "components/MoviesList/MoviesList";
 
 const Movies = () => {

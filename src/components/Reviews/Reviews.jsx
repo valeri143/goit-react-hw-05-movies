@@ -1,4 +1,4 @@
-import { getMovieReviews } from "components/helpers/api"
+import { getMovieReviews } from "helpers/api"
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 

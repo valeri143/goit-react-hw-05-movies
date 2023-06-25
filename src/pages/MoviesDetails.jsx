@@ -1,6 +1,6 @@
 import { useParams, Outlet, Link, useLocation} from "react-router-dom";
 import { useEffect, useRef, useState, Suspense } from "react";
-import { getMovieById } from "components/helpers/api";
+import { getMovieById } from "helpers/api";
 import { MovieCard } from "components/MovieCard/MovieCard";
 
 const MoviesDetails = () => {

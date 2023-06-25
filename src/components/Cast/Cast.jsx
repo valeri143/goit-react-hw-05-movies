@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getMovieCast } from "components/helpers/api";
+import { getMovieCast } from "helpers/api";
 import { useParams } from "react-router-dom";
 
 const Cast = () => {

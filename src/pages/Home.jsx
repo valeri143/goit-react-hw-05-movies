@@ -1,4 +1,4 @@
-import { getTrandingMovies } from "components/helpers/api"
+import { getTrandingMovies } from "helpers/api"
 import { useEffect, useState} from "react";
 import { MoviesList } from "components/MoviesList/MoviesList";
 import { useLocation } from "react-router-dom";
